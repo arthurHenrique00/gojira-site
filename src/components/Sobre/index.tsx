@@ -1,10 +1,12 @@
-import bandaSobre from '../../gojira_projects_foto/gojira-banda.jpg'
 import bandaOlim from '../../gojira_projects_foto/gojira-olympics.webp'
 import castelo from '../../gojira_projects_foto/gojira-castelo-olympics.jpg'
 import { Banda, Desc } from './styles'
+import { Footer } from '../Footer/styles'
+import Header from '../Header'
 
 const Sobre = () => (
   <>
+    <Header />
     <Banda src={bandaOlim} />
     <div className="container">
       <h2>Sobre</h2>
@@ -31,6 +33,7 @@ const Sobre = () => (
         perseverança e resiliência.
       </Desc>
     </div>
+    <Footer />
   </>
 )
 

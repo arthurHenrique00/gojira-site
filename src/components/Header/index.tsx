@@ -6,13 +6,10 @@ const Header = () => (
     <img src={logo} />
     <Links>
       <li>
-        <Link href="">Sobre</Link>
-        <Link href="">Vinils</Link>
-        <Link href="">Músicas</Link>
-        <Link href="">Produtos</Link>
-      </li>
-      <li>
-        <a href="">Sign Up</a>
+        <Link href="/">Sobre</Link>
+        <Link href="/vinils">Vinils</Link>
+        <Link href="/musicas">Músicas</Link>
+        <Link href="/produtos">Produtos</Link>
       </li>
     </Links>
   </HeaderBar>

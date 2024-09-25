@@ -8,9 +8,12 @@ import lenfant from '../../gojira_projects_foto/lentant_sauvage.jpg'
 import Botao from '../Botao'
 import { Banda } from '../Sobre/styles'
 import { ListaVinil, Preco, PrecoPromo } from './styles'
+import Header from '../Header'
+import { Footer } from '../Footer/styles'
 
 const Vinils = () => (
   <>
+    <Header />
     <Banda src={bandaSobre} />
     <div className="container">
       <h1>Vinils</h1>
@@ -102,6 +105,7 @@ const Vinils = () => (
         </li>
       </ListaVinil>
     </div>
+    <Footer />
   </>
 )
 
