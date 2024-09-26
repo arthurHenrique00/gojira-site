@@ -23,9 +23,9 @@ const Produtos = () => (
           <CardProduto>
             <div>
               <img src={skullRed} />
+              <h2>Mouth Skull (Red)</h2>
+              <p>R$ 55, 75</p>
             </div>
-            <h2>Mouth Skull (Red)</h2>
-            <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>
         </li>

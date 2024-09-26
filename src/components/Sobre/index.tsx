@@ -25,6 +25,7 @@ const Sobre = () => (
     </div>
     <Banda src={castelo} />
     <div className="container">
+      <h2>Olimpíadas</h2>
       <Desc>
         A performance do Gojira com a cantora de ópera Marina Viotti foi um dos
         momentos mais falados da cerimônia de abertura dos Jogos Olímpicos de

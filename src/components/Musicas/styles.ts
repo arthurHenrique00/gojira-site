@@ -6,10 +6,11 @@ export const titleSec = styled.h2`
 `
 export const Musica = styled.li`
   text-align: center;
-  display: block;
-  border-bottom: 1px solid #a8a8a8;
+  border: 3px solid #a8a8a8;
   margin-bottom: 120px;
   font-size: 22px;
+  border-radius: 9px;
+  max-width: 450px;
 
   p {
     margin-bottom: 22px;
@@ -25,4 +26,9 @@ export const AlbumTit = styled.h2`
   font-size: 22px;
   margin-bottom: 120px;
   text-align: center;
+`
+
+export const Album = styled.ul`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 `

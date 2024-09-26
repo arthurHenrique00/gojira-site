@@ -2,7 +2,7 @@ import bannerWhale from '../../gojira_projects_foto/Cover art of Gojiras _From M
 import { Footer } from '../Footer/styles'
 import Header from '../Header'
 import { Banda } from '../Sobre/styles'
-import { AlbumTit, Musica, PlayerMusc, titleSec as Tit } from './styles'
+import { Album, AlbumTit, Musica, PlayerMusc, titleSec as Tit } from './styles'
 
 const Musicas = () => (
   <>
@@ -10,9 +10,9 @@ const Musicas = () => (
     <div className="container">
       <Tit>Melhores músicas dos melhor albums</Tit>
       <Banda src={bannerWhale} />
+      <AlbumTit>The way of all flesh</AlbumTit>
       <div>
-        <AlbumTit>The way of all flesh</AlbumTit>
-        <ul>
+        <Album>
           <Musica>
             <p>Toxic garbage island</p>
             <PlayerMusc
@@ -54,11 +54,11 @@ const Musicas = () => (
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></PlayerMusc>
           </Musica>
-        </ul>
+        </Album>
       </div>
       <div>
         <AlbumTit>From Mars to Sirius</AlbumTit>
-        <ul>
+        <Album>
           <Musica>
             <p>Unicorn</p>
             <PlayerMusc
@@ -89,11 +89,21 @@ const Musicas = () => (
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></PlayerMusc>
           </Musica>
-        </ul>
+          <Musica>
+            <p>Flying Whale</p>
+            <PlayerMusc
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/eg_OyqkITSE?si=YOSo3UO8WfXc96IC"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></PlayerMusc>
+          </Musica>
+        </Album>
       </div>
       <div>
         <AlbumTit>Magma</AlbumTit>
-        <ul>
+        <Album>
           <Musica>
             <p>Silvera</p>
             <PlayerMusc
@@ -136,7 +146,7 @@ const Musicas = () => (
               referrerPolicy="strict-origin-when-cross-origin"
             ></PlayerMusc>
           </Musica>
-        </ul>
+        </Album>
       </div>
     </div>
     <Footer />

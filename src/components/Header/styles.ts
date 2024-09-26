@@ -1,13 +1,15 @@
 import { styled } from 'styled-components'
 
 export const HeaderBar = styled.header`
-  background-color: grey;
+  position: sticky;
+  top: 0;
+  background-color: #ececec;
   padding: 12px;
   margin-bottom: 40px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   border-radius: 8px;
+  align-items: center;
 
   img {
     width: 125px;
@@ -24,7 +26,7 @@ export const Links = styled.ul`
     border-radius: 8px;
     padding: 8px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 16px;
 
     &:hover {

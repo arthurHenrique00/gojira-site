@@ -9,8 +9,8 @@ font-family: Roboto, sans-serif;
 list-style: none;
 }
 
-body{
-padding-top: 40px;
+body {
+background-color: #fff;
 }
 
 .container {

@@ -1,5 +1,5 @@
 import { Button } from './styles'
 
-const Botao = () => <Button>Comprar</Button>
+const Botao = () => <Button href="/carrinho">Comprar</Button>
 
 export default Botao
