@@ -1,5 +1,5 @@
 import bannerWhale from '../../gojira_projects_foto/Cover art of Gojiras _From Mars to Sirius_ by Joe Duplantier.jpg'
-import { Footer } from '../Footer/styles'
+import Rodape from '../Footer'
 import Header from '../Header'
 import { Banda } from '../Sobre/styles'
 import { Album, AlbumTit, Musica, PlayerMusc, titleSec as Tit } from './styles'
@@ -149,7 +149,7 @@ const Musicas = () => (
         </Album>
       </div>
     </div>
-    <Footer />
+    <Rodape />
   </>
 )
 

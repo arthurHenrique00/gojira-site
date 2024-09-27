@@ -1,23 +1,25 @@
-import { Footer } from '../Footer/styles'
 import Header from '../Header'
 import whaleMoon from '../../gojira_projects_foto/whale-moon-sun.webp'
-import { HeadCart } from './styles'
+import { CardCarrinho, HeadCart, ProdutoFoto } from './styles'
+
+import Rodape from '../Footer'
 
 const Carrinho = () => (
   <>
     <Header />
-    <HeadCart>
-      <p>Itens no Carrinho: 0</p>
-      <p>Valor R$ 275,00</p>
-    </HeadCart>
-    <div>
-      <div>
-        <img src={whaleMoon} />
-      </div>
-      <p>Whale Moon sun</p> <br />
-      <p>R$ 55,75</p>
+    <div className="container">
+      <HeadCart>
+        <p>Itens no Carrinho: 0</p>
+        <p>Valor R$ 275,00</p>
+      </HeadCart>
+      <CardCarrinho>
+        <ProdutoFoto>
+          <img src={whaleMoon} />
+        </ProdutoFoto>
+        <p>Whale Moon sun R$ 55,75</p>
+      </CardCarrinho>
     </div>
-    <Footer />
+    <Rodape />
   </>
 )
 

@@ -7,8 +7,8 @@ import whaleMars from '../../gojira_projects_foto/whale-from-mars.webp'
 import devilFire from '../../gojira_projects_foto/dragon-devil.webp'
 import Botao from '../Botao'
 import { CardProduto, ListaProdutos, LogoNome } from './styles'
-import { Footer } from '../Footer/styles'
 import Header from '../Header'
+import Rodape from '../Footer'
 
 const Produtos = () => (
   <>
@@ -81,7 +81,7 @@ const Produtos = () => (
         </li>
       </ListaProdutos>
     </div>
-    <Footer />
+    <Rodape />
   </>
 )
 

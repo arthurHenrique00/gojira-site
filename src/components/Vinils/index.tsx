@@ -9,7 +9,7 @@ import Botao from '../Botao'
 import { Banda } from '../Sobre/styles'
 import { ListaVinil, Preco, PrecoPromo } from './styles'
 import Header from '../Header'
-import { Footer } from '../Footer/styles'
+import Rodape from '../Footer'
 
 const Vinils = () => (
   <>
@@ -105,7 +105,7 @@ const Vinils = () => (
         </li>
       </ListaVinil>
     </div>
-    <Footer />
+    <Rodape />
   </>
 )
 
