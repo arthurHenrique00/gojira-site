@@ -4,6 +4,7 @@ export const LogoNome = styled.div`
   text-align: center;
   margin-bottom: 120px;
   font-size: 26px;
+  margin-top: 60px;
 
   h1 {
     font-family: 'Devonshire', system-ui;

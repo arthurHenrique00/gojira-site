@@ -14,7 +14,7 @@ import Rodape from '../Footer'
 const Vinils = () => (
   <>
     <Header />
-    <Banda src={bandaSobre} />
+    <Banda style={{ marginTop: '60px' }} src={bandaSobre} />
     <div className="container">
       <h1>Vinils</h1>
       <ListaVinil>

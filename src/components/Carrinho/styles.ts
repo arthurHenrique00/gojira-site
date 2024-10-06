@@ -6,6 +6,7 @@ font-size: 22px:
 align-items: center;
 border-bottom: 2px solid #a3a3a3;
 justify-content: space-between;
+  margin-top: 60px;
 `
 
 export const precoTot = styled.p`

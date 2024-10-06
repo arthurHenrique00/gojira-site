@@ -7,7 +7,7 @@ import Rodape from '../Footer'
 const Sobre = () => (
   <>
     <Header />
-    <Banda src={bandaOlim} />
+    <Banda style={{ marginTop: '60px' }} src={bandaOlim} />
     <div className="container">
       <h2>Sobre</h2>
       <Desc>

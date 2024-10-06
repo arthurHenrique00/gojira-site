@@ -3,9 +3,8 @@ import { styled } from 'styled-components'
 export const HeaderBar = styled.header`
   position: sticky;
   top: 0;
-  background-color: #ececec;
+  background-color: #575656;
   padding: 12px;
-  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
@@ -26,7 +25,7 @@ export const Links = styled.ul`
     border-radius: 8px;
     padding: 8px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 16px;
 
     &:hover {
