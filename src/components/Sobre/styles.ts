@@ -4,7 +4,6 @@ export const Banda = styled.img`
   margin: 0 auto;
   display: block;
   border-radius: 9px;
-  width: 1020px;
   margin-bottom: 80px;
 `
 
