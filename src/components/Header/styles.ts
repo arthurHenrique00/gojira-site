@@ -1,8 +1,6 @@
 import { styled } from 'styled-components'
 
 export const HeaderBar = styled.header`
-  position: sticky;
-  top: 0;
   background-color: #575656;
   padding: 12px;
   display: flex;

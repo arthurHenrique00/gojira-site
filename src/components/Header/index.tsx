@@ -1,9 +1,8 @@
 import { HeaderBar, Link, Links } from './styles'
 import logo from '../../gojira_projects_foto/gojira-logo.webp'
-import cart from '../../gojira_projects_foto/shoppingcart.png'
 
 const Header = () => (
-  <HeaderBar>
+  <HeaderBar className="sticky-top">
     <img src={logo} />
     <Links>
       <li>
