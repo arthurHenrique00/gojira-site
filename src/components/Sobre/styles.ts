@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const Banda = styled.img`
   margin: 0 auto;
   display: block;
+  width: 964px;
+  height: 520px;
   border-radius: 9px;
   margin-bottom: 80px;
 `
