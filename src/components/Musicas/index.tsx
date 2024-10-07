@@ -4,10 +4,10 @@ import Header from '../Header'
 import { Album, AlbumTit, Musica, PlayerMusc, titleSec as Tit } from './styles'
 
 const Musicas = () => (
-  <>
+  <div style={{ backgroundColor: 'rgb(46, 46, 46)' }}>
     <Header />
     <Banner />
-    <div style={{ backgroundColor: 'rgb(46, 46, 46)' }}>
+    <div>
       <div className="container">
         <Tit>Melhores músicas dos melhor albums</Tit>
         <AlbumTit id="twoaf">The way of all flesh</AlbumTit>
@@ -151,7 +151,7 @@ const Musicas = () => (
       </div>
     </div>
     <Rodape />
-  </>
+  </div>
 )
 
 export default Musicas
