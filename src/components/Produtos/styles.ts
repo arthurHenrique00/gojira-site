@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const LogoNome = styled.div`
   text-align: center;
   margin-bottom: 120px;
-  font-size: 26px;
   margin-top: 60px;
 
   h1 {
@@ -17,7 +16,6 @@ export const LogoNome = styled.div`
 export const ListaProdutos = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 32px;
   row-gap: 32px;
   text-align: center;
   margin-bottom: 120px;

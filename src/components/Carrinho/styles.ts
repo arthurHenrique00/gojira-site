@@ -33,3 +33,9 @@ export const CardCarrinho = styled.div`
   margin-bottom: 90px;
   align-items: center;
 `
+
+export const BotaoCarrinho = styled.button`
+  border-radius: 9px;
+  font-weight: bold;
+  padding: 6px;
+`

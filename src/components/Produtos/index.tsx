@@ -23,7 +23,7 @@ const Produtos = () => (
           <CardProduto>
             <div>
               <img src={skullRed} />
-              <h2>Mouth Skull (Red)</h2>
+              <h4>Mouth Skull (Red)</h4>
               <p>R$ 55, 75</p>
             </div>
             <Botao />
@@ -34,7 +34,7 @@ const Produtos = () => (
             <div>
               <img src={longSleeve} />
             </div>
-            <h2>Long Sleeve</h2>
+            <h4>Long Sleeve</h4>
             <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>
@@ -44,7 +44,7 @@ const Produtos = () => (
             <div>
               <img src={whaleMoon} />
             </div>
-            <h2>Whale Moon</h2>
+            <h4>Whale Moon</h4>
             <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>
@@ -54,7 +54,7 @@ const Produtos = () => (
             <div>
               <img src={power} />
             </div>
-            <h2>Power Glove</h2>
+            <h4>Power Glove</h4>
             <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>
@@ -64,7 +64,7 @@ const Produtos = () => (
             <div>
               <img src={whaleMars} />
             </div>
-            <h2>Whale from mars</h2>
+            <h4>Whale from mars</h4>
             <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>
@@ -74,7 +74,7 @@ const Produtos = () => (
             <div>
               <img src={devilFire} />
             </div>
-            <h2>Devil Fire</h2>
+            <h4>Devil Fire</h4>
             <p>R$ 55, 75</p>
             <Botao />
           </CardProduto>

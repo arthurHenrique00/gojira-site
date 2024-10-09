@@ -2,18 +2,17 @@ import Header from '../Header'
 import whaleMoon from '../../gojira_projects_foto/whale-moon-sun.webp'
 import skullRed from '../../gojira_projects_foto/mouth-skull-red.jpg'
 import longSleeve from '../../gojira_projects_foto/long-sleeve.webp'
-import { CardCarrinho, HeadCart, ProdutoFoto } from './styles'
+import { BotaoCarrinho, CardCarrinho, HeadCart, ProdutoFoto } from './styles'
 
 import Rodape from '../Footer'
-import Botao from '../Botao'
-
 const Carrinho = () => (
-  <>
+  <div style={{ backgroundColor: 'black', color: '#fff' }}>
     <Header />
     <div className="container">
       <HeadCart>
         <p>Itens no Carrinho: 3</p>
-        <p>Valor R$ 275,00</p> <Botao />
+        <p>Valor R$ 275,00</p>
+        <BotaoCarrinho>Continuar a compra</BotaoCarrinho>
       </HeadCart>
       <CardCarrinho>
         <ProdutoFoto>
@@ -35,7 +34,7 @@ const Carrinho = () => (
       </CardCarrinho>
     </div>
     <Rodape />
-  </>
+  </div>
 )
 
 export default Carrinho
