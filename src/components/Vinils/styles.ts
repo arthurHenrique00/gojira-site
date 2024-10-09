@@ -5,6 +5,7 @@ export const ListaVinil = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   padding-bottom: 90px;
+  height: 100%;
 
   img {
     width: 300px;
