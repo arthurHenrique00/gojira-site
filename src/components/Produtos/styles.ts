@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakPoints } from '../../styles'
 
 export const LogoNome = styled.div`
   text-align: center;
@@ -19,6 +20,12 @@ export const ListaProdutos = styled.ul`
   row-gap: 32px;
   text-align: center;
   margin-bottom: 120px;
+
+  @media (max-width: ${breakPoints.desktop}) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
 `
 export const CardProduto = styled.div`
   background-color: #fff;

@@ -7,12 +7,9 @@ import whaleMars from '../../gojira_projects_foto/whale-from-mars.webp'
 import devilFire from '../../gojira_projects_foto/dragon-devil.webp'
 import Botao from '../Botao'
 import { CardProduto, ListaProdutos, LogoNome } from './styles'
-import Header from '../Header'
-import Rodape from '../Footer'
 
 const Produtos = () => (
   <>
-    <Header />
     <div className="container">
       <LogoNome>
         <img src={logo} />
@@ -81,7 +78,6 @@ const Produtos = () => (
         </li>
       </ListaProdutos>
     </div>
-    <Rodape />
   </>
 )
 

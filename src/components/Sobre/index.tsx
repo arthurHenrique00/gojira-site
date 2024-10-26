@@ -1,6 +1,4 @@
 import { Banda, Desc } from './styles'
-import Header from '../Header'
-import Rodape from '../Footer'
 import bandaOlim from '../../gojira_projects_foto/gojira-olympics.png'
 import castelo from '../../gojira_projects_foto/gojira-castelo-olympics.jpg'
 import liberte from '../../gojira_projects_foto/liberteOlimp.jpg'
@@ -10,7 +8,6 @@ import gojira3 from '../../gojira_projects_foto/about3.jpg'
 
 const Sobre = () => (
   <>
-    <Header />
     <div id="carousel-sobre" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div data-bs-interval="1000" className="carousel-item active">
@@ -126,7 +123,6 @@ const Sobre = () => (
         perseverança e resiliência.
       </Desc>
     </div>
-    <Rodape />
   </>
 )
 

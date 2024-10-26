@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import bannerWhale from '../../gojira_projects_foto/magma-banner.jpg'
+import { breakPoints } from '../../styles'
 
 export const Imagem = styled.div`
   width: 100%;
@@ -12,26 +13,35 @@ export const Imagem = styled.div`
   background-size: cover;
 
   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 
-    padding-top: 40px;
-    text-align: center;
+  div {
+  display: inline-block;
+  margin-right: 32px;
 
-    img {
-      max-width: 150px;
-      width: 100%;
-      border-radius: 50%;
-    }
+  @media (max-width: ${breakPoints.desktop}) {
+  margin-right: 0px;
+  max-width: 80%;
+  }
+  }
 
-    a {
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 22px;
-      color: white;
-      display: block;
-      padding-top: 22px;
-    }
+
+  padding-top: 40px;
+  text-align: center;
+
+  img {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    display: block;
+    padding-top: 22px;
+  }
 `
 export const TituloBanner = styled.h2`
   font-size: 32px;

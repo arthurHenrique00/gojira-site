@@ -48,8 +48,3 @@ export const Link = styled.a`
 export const LinkSect = styled.li`
   margin-right: 24px;
 `
-//   .container {
-//   max-width: 1024px;
-//   width: 100%;
-//   margin: 0 auto;
-// }

@@ -1,6 +1,5 @@
 import { Imagem, TituloBanner } from './styles'
 
-import bannerWhale from '../../gojira_projects_foto/magma-banner.jpg'
 import TheWayAll from '../../gojira_projects_foto/twoaf.jpg'
 import Magma from '../../gojira_projects_foto/mgm.jpg'
 import WhaleSirius from '../../gojira_projects_foto/fmts.jpg'

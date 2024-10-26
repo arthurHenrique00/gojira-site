@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakPoints } from '../../styles'
 
 export const ListaVinil = styled.ul`
   display: grid;
@@ -6,6 +7,11 @@ export const ListaVinil = styled.ul`
   gap: 32px;
   padding-bottom: 90px;
   height: 100%;
+
+  @media (max-width: ${breakPoints.desktop}) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   img {
     width: 300px;

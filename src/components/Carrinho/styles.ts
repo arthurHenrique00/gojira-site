@@ -30,7 +30,6 @@ export const CardCarrinho = styled.div`
   display: flex;
   padding: 22px 0;
   border-bottom: 2px solid #a3a3a3;
-  margin-bottom: 90px;
   align-items: center;
 `
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { breakPoints } from '../../styles'
 
 export const Banda = styled.img`
   margin: 0 auto;
@@ -7,6 +8,10 @@ export const Banda = styled.img`
   height: 520px;
   border-radius: 9px;
   margin-bottom: 80px;
+
+  @media (max-width: ${breakPoints.desktop}) {
+    width: 660px;
+  }
 `
 
 export const Desc = styled.p`
