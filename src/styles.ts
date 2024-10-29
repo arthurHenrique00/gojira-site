@@ -23,10 +23,12 @@ background-color: #fff;
   width: 100%;
   margin: 0 auto;
 
-  @media (max-width: ${breakPoints.desktop}) {
+@media (max-width: ${breakPoints.desktop}) {
   max-width: 80%;
   }
+
+  @media (max-width: ${breakPoints.tablet}) {
+  max-width: 100%;
+  }
 }
-
-
 `

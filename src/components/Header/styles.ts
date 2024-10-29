@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import { breakPoints } from '../../styles'
 
 export const HeaderBar = styled.header`
   background-color: #575656;
@@ -30,6 +31,10 @@ export const Links = styled.ul`
       background-color: #888888;
     }
   }
+
+  @media (max-width: ${breakPoints.tablet}) {
+    display: none;
+  }
 `
 
 export const Link = styled.a`
@@ -47,4 +52,41 @@ export const Link = styled.a`
 
 export const LinkSect = styled.li`
   margin-right: 24px;
+`
+export const Hamburguer = styled.div`
+  width: 32px;
+
+  span {
+    height: 2px;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 4px;
+  }
+
+  @media (min-width: ${breakPoints.tablet}) {
+    display: none;
+  }
+`
+export const NavMob = styled.nav`
+  display: none;
+
+  &.is-open {
+    display: block;
+  }
+
+  > li {
+    @media (max-width: ${breakPoints.tablet}) {
+      a {
+        display: block;
+      }
+
+      li {
+        margin-top: 25px;
+        padding: 12px;
+        border-radius: 9px;
+        background-color: #888888;
+      }
+    }
+  }
 `

@@ -23,6 +23,10 @@ export const ListaVinil = styled.ul`
     margin-top: 24px;
     text-align: center;
   }
+
+  @media (max-width: ${breakPoints.tablet}) {
+    display: block;
+  }
 `
 export const Preco = styled.p`
   font-weight: bold;

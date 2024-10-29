@@ -12,6 +12,11 @@ export const Banda = styled.img`
   @media (max-width: ${breakPoints.desktop}) {
     width: 660px;
   }
+
+  @media (max-width: ${breakPoints.tablet}) {
+    width: 350px;
+    height: 250px;
+  }
 `
 
 export const Desc = styled.p`
@@ -22,4 +27,9 @@ export const Desc = styled.p`
   background-color: #8d8d8d;
   color: white;
   border-radius: 9px;
+
+  @media (max-width: ${breakPoints.tablet}) {
+    font-size: 12px;
+    line-height: 16px;
+  }
 `
